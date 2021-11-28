@@ -1,0 +1,5 @@
+services:
+  access_check_field_value.field_value:
+    class: Drupal\access_check_field_value\Access\FieldValue
+    tags:
+      - { name: access_check, applies_to: _field_value_field }

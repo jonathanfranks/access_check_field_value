@@ -1,0 +1,5 @@
+name: 'Access check by field value'
+description: 'Provides custom route access checking by a parameter specifying a field value.'
+package: 'Access checking'
+type: module
+core: 8.x

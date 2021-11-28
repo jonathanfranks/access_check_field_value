@@ -1,0 +1,7 @@
+name: 'Route with custom access'
+description: 'Provides custom route with access checking.'
+package: 'Access checking'
+type: module
+core: 8.x
+dependencies:
+  - access_check_field_value

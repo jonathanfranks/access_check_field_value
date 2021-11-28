@@ -1,0 +1,9 @@
+route_with_custom_access.node_field:
+  path: '/node/{node}/check_field'
+  defaults:
+    _controller: 'Drupal\route_with_custom_access\Controller\RouteWithCustomAccessController::returnOk'
+  requirements:
+    _field_value_parameter: 'node'
+    _field_value_field: 'title'
+    _field_value_value: 'Invalid title'
+    _field_value_negate: 'TRUE'
